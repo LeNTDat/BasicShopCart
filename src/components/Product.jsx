@@ -9,7 +9,7 @@ export default function Product({
   price,
   description,
 }) {
-  const { items, addItemToCart } = useContext(CartContext);
+  const { addItemToCart } = useContext(CartContext);
 
   return (
     <article className="product">
